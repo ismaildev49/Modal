@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    height: 100vh;
+
+}
+
+.container-b{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    z-index: 0;
+}
+button{
+    background-color: blue;
+    border: none;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+cursor: pointer;
+}
+.hidden {
+    display: none;
+    z-index: 2;
+}
+.container{
+    margin : 0 auto;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    z-index: 10;
+    top: 40%;
+    bottom: 20%;
+    
+}
+.modal{
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+span{
+    align-self: flex-end;
+    opacity: 0.4 ;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+span:hover{
+    cursor: pointer;
+}
+.newDiv{
+    background-color: rgba(0, 0, 0, 0.662);
+    /* opacity: 0.7; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
